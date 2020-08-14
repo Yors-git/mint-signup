@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intuit Accounts</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+    <header>
+        <div class="top-sign flex">
+            <div class="ts-elements">
+                <p class="ts-text">Already have an Intuit account?</p>
+                <a href="#" class="ts-text">I forgot my User ID or Password</a>
+            </div>
+            <button class="ts-button"><i id="lock-icon" class="material-icons lock-icon">lock</i>Sign In</button>
+        </div>
+    </header>
+    <main>
+        <form class="main-form flex" action="#">
+            <section id="legend-header" class="flex"> 
+                <h3>Create an Intuit Account</h3> 
+                <p>One account for everything Intuit, including Mint.</p> 
+                <a href="#">Learn more</a>
+            </section>
+            <fieldset class="main-form-fields flex">
+                <label for="email">
+                    <input type="email" name="email">
+                    Email address
+                </label>    
+                <label for="phone">
+                    <input type="text" name="phone">
+                    Phone (recommended)
+                </label>    
+                <label for="password">
+                    <input type="password" name="password">
+                    Password
+                </label>
+            </fieldset>
+            <button class="submit-button"><i id="submit-lock-icon" class="material-icons">lock</i>Create Account</button>    
+        </form>
+    </main>
+</body>
+</html>

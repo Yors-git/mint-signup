@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: rgb(235, 238, 241);
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+/* navigation top of the page */
+.top-sign {
+  height: 3.75rem;
+  width: 98%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ts-text {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.ts-elements {
+  padding-right: 10px;
+}
+
+.ts-button {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 101.88px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 61, 61);
+  background-color: rgb(0, 119, 195);
+  color: white;
+  font-size: 0.84375rem;
+}
+
+#lock-icon {
+  font-size: 0.84375rem;
+  margin: 0.125rem 0.250rem 0 0;
+}
+
+/* form styles */
+.main-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.main-form-fields {
+  align-items: center;
+  border: none;
+}
+
+#legend-header {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
