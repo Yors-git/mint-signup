@@ -1,8 +1,16 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   background-color: rgb(235, 238, 241);
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -13,13 +21,12 @@ a {
   margin: auto;
   flex-direction: column;
   padding-bottom: 1rem;
-  align-items:center;
+  align-items: center;
 }
-
 
 .logo-combo {
   grid-template-columns: 50% 50%;
-  margin:2px;
+  margin: 2px;
 }
 
 .logos {
@@ -34,8 +41,8 @@ a {
 
 .other-logos {
   margin: 0 7% 0 -7%;
-   grid-template-columns: auto auto auto;
-   height: 1.4370625rem;
+  grid-template-columns: auto auto auto;
+  height: 1.4370625rem;
   width: 5rem;
 }
 
@@ -45,6 +52,10 @@ a {
 
 .grid {
   display: grid;
+}
+
+.link {
+  color: rgb(0, 119, 195);
 }
 
 /* navigation top of the page */
@@ -73,27 +84,83 @@ a {
   border: 1px solid rgb(61, 61, 61);
   background-color: rgb(0, 119, 195);
   color: white;
-  font-size: 0.84375rem;
 }
 
 #lock-icon {
   font-size: 0.84375rem;
-  margin: 0.125rem 0.250rem 0 0;
+  vertical-align: middle;
+  padding-bottom: 0.15rem;
+}
+
+#top-button-text {
+  vertical-align: middle;
+  padding-left: 0.5rem;
+  font-size: 0.84375rem;
 }
 
 /* form styles */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(68 68 68);
+  line-height: 1.1;
+  margin: 0;
+}
+
+h5 {
+  font-size: ;
+  color: rgb(79, 79, 79);
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 1.25rem;
+}
+
+input {
+  width: 95%;
+  border: 1px solid #c1c5c8;
+  height: 32px;
+  min-width: 100px;
+  color: #000000;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  padding: 0 6px 0 6px;
+  margin-top: 5px;
+}
+
+label {
+  color: rgb(64, 64, 64);
+  font-size: 0.875rem;
+  line-height: 1.5625rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 1rem;
+}
+
+.main-form .link {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .main-form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2px;
   margin: 0 auto;
   width: 30%;
+  background-color: white;
+  padding: 1.875rem;
 }
 
 .main-form-fields {
   align-items: center;
   border: none;
+  padding: 1px;
+  margin: 1px;
 }
 
 #legend-header {
@@ -101,4 +168,62 @@ a {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 1.25rem;
+}
+
+.submit-button {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 99%;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(0, 119, 195);
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.form-bottom {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  text-align: center;
+  width: 92%;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.terms-link {
+  color: rgb(0, 119, 195);
+}
+
+#submit-lock-icon {
+  vertical-align: middle;
+  font-size: 15px;
+  padding-bottom: 0.2rem;
+}
+
+#button-text {
+  vertical-align: middle;
+  font-size: 15.75px;
+  padding-left: 0.5rem;
+}
+
+#disclaimer {
+  font-size: 10px;
+}
+
+/* footer styles */
+.footer-elements {
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  padding: 20px 0;
+}
+
+.footer-element {
+  margin: 0 auto;
+  font-size: 0.75rem;
+  color: gray;
 }
