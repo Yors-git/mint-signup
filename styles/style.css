@@ -13,37 +13,52 @@ body {
   justify-content: space-between;
 }
 
+ul li{
+  list-style-type: none;
+  display:inline;
+  width: auto;
+}
+
+}
+
 a {
   text-decoration: none;
 }
 
 .images {
-  margin: auto;
+  margin-bottom:0;
+  padding-bottom: 0;
   flex-direction: column;
-  padding-bottom: 1rem;
   align-items: center;
 }
 
-.logo-combo {
-  grid-template-columns: 50% 50%;
-  margin: 2px;
-}
 
 .logos {
   height: 29px;
   width: 29px;
+  padding-right: 3px;
+  padding-top:4px;
+
+}
+
+.logo-text {
+ padding-right: 10px;
+ font-size:1.2rem;
+ font-family:sans-serif;
 }
 
 .main-logo {
   height: 35px;
   width: 117px;
+
 }
 
 .other-logos {
-  margin: 0 7% 0 -7%;
-  grid-template-columns: auto auto auto;
+  padding-left: 20px;
   height: 1.4370625rem;
-  width: 5rem;
+  width: auto;
+  align-items: center;
+  color: #6C6A72;
 }
 
 .flex {
@@ -154,6 +169,7 @@ label {
   width: 30%;
   background-color: white;
   padding: 1.875rem;
+  max-width: 300px;
 }
 
 .main-form-fields {
