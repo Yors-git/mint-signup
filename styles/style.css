@@ -1,0 +1,255 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(235, 238, 241);
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.images {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logos {
+  height: 29px;
+  width: 29px;
+  padding-right: 3px;
+  padding-top: 4px;
+}
+
+.logo-text {
+  padding-right: 10px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.main-logo {
+  height: 35px;
+  width: 117px;
+}
+
+.other-logos {
+  padding-left: 20px;
+  height: 1.4370625rem;
+  width: auto;
+  align-items: center;
+  color: #6c6a72;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.link {
+  color: rgb(0, 119, 195);
+  text-decoration: none;
+}
+
+/* navigation top of the page */
+.top-sign {
+  height: 3.75rem;
+  width: 98%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ts-text {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.ts-elements {
+  padding-right: 10px;
+}
+
+.ts-button {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 101.88px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 61, 61);
+  background-color: rgb(0, 119, 195);
+  color: white;
+  font-size: 0.84375rem;
+}
+
+.button-text {
+  vertical-align: middle;
+  padding-left: 0.5rem;
+}
+
+#lock-icon {
+  font-size: 0.84375rem;
+  vertical-align: middle;
+  padding-bottom: 0.15rem;
+}
+
+/* form styles */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+  line-height: 1.1;
+  margin: 0;
+}
+
+h5 {
+  color: rgb(79, 79, 79);
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 1.25rem;
+}
+
+input {
+  width: 95%;
+  border: 1px solid #c1c5c8;
+  height: 32px;
+  min-width: 100px;
+  color: #000;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  padding: 0 6px 0 6px;
+  margin-top: 5px;
+}
+
+label {
+  color: rgb(64, 64, 64);
+  font-size: 0.875rem;
+  line-height: 1.5625rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.main-form .link {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.main-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2px;
+  margin: 0 auto;
+  width: 30%;
+  background-color: white;
+  padding: 1.875rem;
+  max-width: 300px;
+}
+
+.main-form-fields {
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  padding: 1px;
+  margin: 1px;
+}
+
+.legend-header {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1.25rem;
+}
+
+.submit-button {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 99%;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(0, 119, 195);
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 15.75px;
+}
+
+.form-bottom {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  text-align: center;
+  width: 92%;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.terms-link {
+  color: rgb(0, 119, 195);
+  text-decoration: none;
+}
+
+.disclaimer {
+  font-size: 10px;
+}
+
+.form-bottom-legend {
+  background-color: #eceef1;
+  width: 100%;
+  margin: 32px -30px -30px -30px;
+  padding: 20px 30px;
+  line-height: 1.5;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+#submit-lock-icon {
+  vertical-align: middle;
+  font-size: 15px;
+  padding-bottom: 0.2rem;
+}
+
+#password {
+  background-image: url('../img/openLock.png');
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-size: 21px;
+  background-position-x: 97%;
+}
+
+/* footer styles */
+.footer-elements {
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer-element {
+  margin: 0 auto;
+  font-size: 0.75rem;
+  color: gray;
+}
