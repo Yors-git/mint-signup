@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   background-color: rgb(235, 238, 241);
-  font-family:
+  font-family: 
     "AvenirNext",
     Avenir,
     "Helvetica Neue",
@@ -21,7 +21,6 @@ body {
 ul li {
   list-style-type: none;
   display: inline;
-  width: auto;
 }
 
 .images {
@@ -147,6 +146,7 @@ label {
   line-height: 1.5625rem;
   padding-bottom: 0.375rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .main-form .link {
@@ -169,6 +169,7 @@ label {
 }
 
 .main-form-fields {
+  flex-direction: column;
   align-items: center;
   border: none;
   padding: 1px;
